@@ -1,3 +1,5 @@
+import itertools  
+
 class Solution(object):
     def ArrayPairSum(self, nums):
         """
@@ -6,6 +8,11 @@ class Solution(object):
         """
 
         # your solution here
-
-        return 0
+	#max_sum = 0 
+	#itertools.(nums, 2)
+	#for i in range(len(nums)): 
+        #    for j in  
+	nums.sort()
+ 
+        return nums[0] + nums[int(len(nums)/2)]
 
