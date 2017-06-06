@@ -8,11 +8,9 @@ class Solution(object):
         """
 
         # your solution here
-	#max_sum = 0 
-	#itertools.(nums, 2)
-	#for i in range(len(nums)): 
-        #    for j in  
+	if type(nums[0]) != 'int': 
+	    return 0    
 	nums.sort()
  
         return nums[0] + nums[int(len(nums)/2)]
-
+	#return 0 
