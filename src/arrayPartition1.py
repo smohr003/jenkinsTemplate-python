@@ -6,9 +6,9 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-
+	#print(type(nums[0]))
         # your solution here
-	if type(nums[0]) != 'int': 
+	if type(nums[0]) is not int: 
 	    return 0    
 	nums.sort()
  
